@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from './navbar';
 import { ProjectCard } from './Cards/projectCard';
 import { motion } from 'framer-motion';
