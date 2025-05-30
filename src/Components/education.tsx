@@ -8,46 +8,46 @@ const coreClasses = [
     {
         courseNum: 'CSE 421',
         courseDescription: 'Algorithms',
-        Link: 'https://www.cs.washington.edu/courses/cse421',
+        Link: 'https://courses.cs.washington.edu/courses/cse421/',
         favorite: true,
     },
     {
         courseNum: 'CSE 451',
         courseDescription: 'Operating Systems',
-        Link: 'https://www.cs.washington.edu/courses/cse451',
+        Link: 'https://courses.cs.washington.edu/courses/cse451/',
         favorite: true,
     },
     {
         courseNum: 'CSE 332',
         courseDescription: 'Data Structures and Parallelism',
-        Link: 'https://www.cs.washington.edu/courses/cse332',
+        Link: 'https://courses.cs.washington.edu/courses/cse332/',
     }, 
     {
         courseNum: 'CSE 461', 
         courseDescription: 'Computer Networks',
-        Link: 'https://www.cs.washington.edu/courses/cse461',
+        Link: 'https://courses.cs.washington.edu/courses/cse461/',
         favorite: true,
     },
     {
         courseNum: 'CSE 473', 
         courseDescription: 'Artificial Intelligence',
-        Link: 'https://www.cs.washington.edu/courses/cse473',
+        Link: 'https://courses.cs.washington.edu/courses/cse473/',
     }, 
     {
         courseNum: 'CSE 333', 
         courseDescription: 'Systems Programming',
-        Link: 'https://www.cs.washington.edu/courses/cse333',
+        Link: 'https://courses.cs.washington.edu/courses/cse333/',
         favorite: true,
     }, 
     {
         courseNum: 'CSE 344', 
         courseDescription: 'Database Management Systems',
-        Link: 'https://www.cs.washington.edu/courses/cse344',
+        Link: 'https://courses.cs.washington.edu/courses/cse344/',
     }, 
     {
         courseNum: 'CSE 351', 
         courseDescription: 'Hardware/Software Interface',
-        Link: 'https://www.cs.washington.edu/courses/cse351',
+        Link: 'https://courses.cs.washington.edu/courses/cse351/',
     },
 
 ];

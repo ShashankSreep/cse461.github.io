@@ -48,7 +48,7 @@ export default function Projects() {
     {
       Name: 'Statsify',
       Description: 'Application that analyzes Spotify listening data and provides a "rewind" like feature',
-      Link: 'https://github.com',
+      Link: 'https://github.com/ShashankSreep/statsify',
     },
     {
       Name: 'Verbatim',
@@ -58,12 +58,12 @@ export default function Projects() {
     {
       Name: 'My Favorite Albums',
       Description: 'Technical documentation portfolio providing comprehensive details about the application',
-      Link: 'https://github.com/ShashankSreep/Engl396.github.io',
+      Link: 'https://github.com/ShashankSreep',
     },
     {
       Name: 'Racial Bias in Named Entity Recognition',
       Description: 'Research project analyzing racial bias in Named Entity Recognition',
-      Link: 'https://github.com/ShashankSreep/racial-bias-in-ner',
+      Link: 'https://github.com/LucilleN/Racial-Bias-in-Legal-NER',
     },
   ];
 
@@ -71,17 +71,17 @@ export default function Projects() {
     {
       Name: 'F1-Live',
       Description: 'Application that provides real-time race updates and race conditions for Formula 1',
-      Link: 'https://github.com',
+      Link: 'https://github.com/ShashankSreep',
     },
     {
       Name: 'Anki But Better',
       Description: 'Flash card application with built-in spaced repitition and modern UI',
-      Link: 'https://github.com',
+      Link: 'https://github.com/ShashankSreep',
     },
     {
       Name: 'Daily Journal',
       Description: 'Application that allows users to track daily thoughts all in one place',
-      Link: 'https://github.com',
+      Link: 'https://github.com/ShashankSreep',
     },
   ];
 

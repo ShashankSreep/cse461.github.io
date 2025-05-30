@@ -11,7 +11,7 @@ function Navbar() {
     { name: 'Home', id: 0, path: '/' },
     { name: 'Projects', id: 1, path: '/projects' },
     { name: 'Education', id: 2, path: '/education' },
-    { name: 'Misc', id: 3, path: '/misc' },
+    // { name: 'Misc', id: 3, path: '/misc' },
   ]
 
   useEffect(() => {
@@ -28,13 +28,13 @@ function Navbar() {
   return (
     <div className="w-full bg-gray-800 pt-6">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex justify-center space-x-12 relative" aria-label="Tabs">
+        <nav className="flex justify-center space-x-40 relative" aria-label="Tabs">
           {tabs.map(tab => (
             <button
               key={tab.id}
               onClick={() => handleTabClick(tab.id)}
               className={`group relative py-2 px-1 text-sm font-medium ${
-                activeTab === tab.id ? 'text-gray-400' : 'text-gray-400 hover:text-gray-200'
+                activeTab === tab.id ? 'text-gray-400' : 'text-gray-400 hover:text-gray-200 cursor-pointer'
               } transition-colors duration-300`}
             >
               {tab.name}
@@ -58,4 +58,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
