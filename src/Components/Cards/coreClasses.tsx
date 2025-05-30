@@ -13,7 +13,7 @@ export function CoreClasses({
 }) {
     return (
         <div className="relative bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-700">
-            {/* Star in top-right corner if favorite */}
+
             {favorite && (
                 <div className="absolute top-2 right-2 text-yellow-400">
                     <svg

@@ -39,10 +39,8 @@ function Navbar() {
             >
               {tab.name}
 
-              {/* Hover underline */}
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-400 scale-x-0 opacity-0 group-hover:scale-x-100 group-hover:opacity-100 transition-transform duration-300 ease-out origin-left" />
 
-              {/* Active underline via framer-motion */}
               {activeTab === tab.id && (
                 <motion.span
                   layoutId="underline"

@@ -90,7 +90,6 @@ export default function Projects() {
       <Navbar />
 
       <div className="flex flex-grow px-6 py-10 gap-8 flex-col md:flex-row">
-        {/* Tech Stack Section */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -108,9 +107,8 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        {/* Projects and Current Projects Section */}
         <div className="w-full md:w-3/4 flex flex-col gap-10">
-          {/* Projects Section */}
+
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
@@ -129,7 +127,6 @@ export default function Projects() {
             </div>
           </motion.div>
 
-          {/* Current Projects Section */}
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}

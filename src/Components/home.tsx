@@ -44,10 +44,8 @@ export default function Homepage() {
 
   return (
     <div className="min-h-screen bg-gray-800 flex flex-col">
-      {/* Top navbar */}
       <Navbar />
 
-      {/* Centered content below navbar */}
       <div className="flex-grow flex items-center justify-center px-4">
         <div className="text-center space-y-4">
           <motion.div
@@ -60,7 +58,6 @@ export default function Homepage() {
               Shashank Sreepathi
             </h1>
 
-            {/* Fading adjective effect */}
             <div className="h-10 relative">
               <AnimatePresence mode="wait">
                 <motion.div
