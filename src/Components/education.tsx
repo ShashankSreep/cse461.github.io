@@ -56,7 +56,6 @@ export default function Education() {
         <div className="min-h-screen bg-gray-800 flex flex-col">
             <Navbar />
             <div className="flex-grow flex flex-wrap items-start justify-start px-10 pt-16 gap-10">
-                {/* Left side: Education card */}
                 <motion.div
                     className="max-w-md w-full"
                     initial={{ opacity: 0, y: 20 }}
@@ -65,8 +64,7 @@ export default function Education() {
                 >
                     <EduCard />
                 </motion.div>
-
-                {/* Right side: Core Classes */}
+                
                 <motion.div
                     className="flex-grow"
                     initial={{ opacity: 0, y: 20 }}
